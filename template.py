@@ -7,12 +7,13 @@ from matplotlib import pyplot as plt
 import scipy.io as sio
 from sklearn.preprocessing import normalize
 
+
 ## Main entry point
 def main(filename):
 
 	X, Y = loadMat(filename)	
 	print(X)
-	print(Y.shape)
+	print(Y)
 
 
 ## Helper Methods
